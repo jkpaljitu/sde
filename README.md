@@ -1,6 +1,6 @@
 sde
 ===
-This can be referred as SDE-Manager, too 
+This can be referred as SDE-Manager. 
 Scripts developed for automating processes in a "Software Development Environment"
 This holds components like:
 1. Devline Manager (DM) - manages branches
