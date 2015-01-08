@@ -17,7 +17,7 @@ package CommonUtils;
 
 # Modules used
 use strict;
-#use Carp qw(croak);
+use Carp qw(croak);
 #use Mail::Sendmail;
 
 ################################################################################
