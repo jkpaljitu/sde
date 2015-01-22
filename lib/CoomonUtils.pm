@@ -17,7 +17,7 @@ package CommonUtils;
 
 # Modules used
 use strict;
-
+use Mail::Sendmail;
 ################################################################################
 # Subroutine   	: new
 # Purpose       : Constructor with initialized value for commonly used variables
@@ -268,7 +268,7 @@ sub sFileCloseErr {
 # Return Value 	: error message or empty string in case of successful
 ################################################################################
 sub sSend {
-  require Mail::Sendmail;
+  #require Mail::Sendmail;
   shift;
   my ($from, $to, $subject, $msg) = @_;
   sendmail(
