@@ -52,6 +52,7 @@ sub new {
     USER => $user,
     # Slash as per type of OS
     SLASH => $slash,
+    NAME => "Jiten",
     # LDAP SEARCH
     LDAP_SEARCH => "/usr/bin/ldapsearch -xb \'ou=active,ou=employees,ou=people,o=arubanetworks.com\' -h ldap.arubanetworks.com uid=", 
     # Misclenious
