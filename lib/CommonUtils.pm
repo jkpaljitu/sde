@@ -58,7 +58,7 @@ sub new {
     # LDAP SEARCH
     LDAP_SEARCH => "/usr/bin/ldapsearch -xb \'ou=active,ou=employees,ou=people,o=arubanetworks.com\' -h ldap.arubanetworks.com uid=", 
     # Misclenious
-    CONTACT => "jpal\@arubanetworks.com",
+    CONTACT => "jkpal2@rediffmail.com",
   };
   bless $self, $class;
   return $self;
