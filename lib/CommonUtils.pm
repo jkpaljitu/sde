@@ -43,9 +43,6 @@ sub new {
     LINUX_CMD_ECHO => "/bin/echo",
     # repository
     REPOSITORY => "//depot/margot",
-    # Which site
-    SITE_SVL1 => "svl1",
-    SITE_BLR1 => "blr1",
     # OS platforms
     WINDOWS => "Windows_NT",
     UNIX => "unix",
@@ -55,10 +52,11 @@ sub new {
     USER => $user,
     # Slash as per type of OS
     SLASH => $slash,
+    NAME => "Jiten",
     # LDAP SEARCH
     LDAP_SEARCH => "/usr/bin/ldapsearch -xb \'ou=active,ou=employees,ou=people,o=arubanetworks.com\' -h ldap.arubanetworks.com uid=", 
     # Misclenious
-    CONTACT => "jpal\@arubanetworks.com",
+    CONTACT => "jkpal2@rediffmail.com",
   };
   bless $self, $class;
   return $self;
