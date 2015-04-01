@@ -43,9 +43,6 @@ sub new {
     LINUX_CMD_ECHO => "/bin/echo",
     # repository
     REPOSITORY => "//depot/margot",
-    # Which site
-    SITE_SVL1 => "svl1",
-    SITE_BLR1 => "blr1",
     # OS platforms
     WINDOWS => "Windows_NT",
     UNIX => "unix",
